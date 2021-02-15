@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        th, td {
+  padding: 1px;
+ 
+}
+th {
+  text-align: left;
+ 
+}
+        </style>
+<body>
+
+<h2>Harini</h2>
+<div id="display_message" style="display:none;"></div>
+<table style="width:100%">
+  <tr>
+    <th>Enter first number</th>
+    <th><input type="number" name="number1" placeholder="Enter first number" id="number1"  required/></input></th> 
+  </tr>
+  <tr>
+    <th>Enter second number</th>
+    <th><input type="number" name="number2" placeholder="Enter second number" id="number2" required/></input></th> 
+  </tr>
+  <tr>
+    <th>Answer</th>
+    <th><input type="number" name="number3" placeholder="Answer" id="number3"></input></th> 
+  </tr>
+  <tr>
+    <th>Submit</th>
+    <th><button type="button" onclick="submit();">Add</button></th> 
+  </tr>
+</table>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="Addnumbers.js">
+
+</script>
+</body>
+</html>
